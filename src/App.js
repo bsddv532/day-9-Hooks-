@@ -1,6 +1,7 @@
 import './App.css';
 import StateDemo from './Components/StateDemo';
 import './Components/Style.css'
+import UseeffectDemo from './Components/UseeffectDemo';
 
 function App() {
   return (
@@ -9,7 +10,11 @@ function App() {
       <h3>useState, useEffect, useContext</h3>
       <h3>useReducer, useCallback, useMemo, useRef</h3>
       <hr />
+      
       <StateDemo />
+      <hr/>
+      <UseeffectDemo />
+      <hr/>
     </div>
   );
 }
