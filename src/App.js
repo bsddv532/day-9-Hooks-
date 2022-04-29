@@ -1,6 +1,7 @@
 import './App.css';
 import StateDemo from './Components/StateDemo';
 import './Components/Style.css'
+import MainContextExample from './Components/UseContext/MainContextExample';
 import UseeffectDemo from './Components/UseeffectDemo';
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
       <hr/>
       <UseeffectDemo />
       <hr/>
+    <MainContextExample/>
+
     </div>
   );
 }
